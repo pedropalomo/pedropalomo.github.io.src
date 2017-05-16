@@ -1,0 +1,45 @@
+<section id="courses-section" class="section gap">
+  <div class="bg" data-anchor-target="#courses-section"
+  data-bottom-top="transform: translate3d(0px, -150px, 0px);"
+  data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+  ></div>
+  <div class="overlay-wrapper">
+    <div class="fade-in">
+      <div class="center">
+        <h1 class="section-heading">Courses</h1>
+        <span class="divider center"></span>
+        <p class="courses-description">The formation presented in this section can be divided in the formation received in <a href="http://www.elecnor-deimos.com/" target="_blank">Deimos Elecnor</a> as part of the company training program, and the formation provided by myself with the aim of learn new things and technologies. The main institutions that I use for this purpose are, <a href="http://www.udemy.com" target="_blank">Udemy</a>, <a href="http://www.edx.org">edX</a>, <a href="http://www.coursera.org" target="_blank">Coursera</a> and <a href="http://www.udacity.com" target="_blank">Udacity</a>.</p>
+      </div>
+      <div class="courses-wrapper">
+        <i class="up-arrow"></i>
+        <div id="timeline">
+          {% for item in site.data.courses %}
+          <div class="timeline-block">
+            <div class="timeline-content">
+              <h3 class="position">{{item.course}}</h2>
+              
+              <h3>
+              <span class="sprite_course {{item.sprite}}"></span>
+              <span class="company"><a href="{{item.link}}" target="_blank">{{item.institution}}</a></span>
+              </h3>
+              
+              <p class="job-desc">{{item.description}}</p>
+              <div class="used">
+                <ul class="used-items">
+                  {% for element in item.used %}
+                  <li class="used-item">{{element.thing}}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-img">
+              <div class="sprite {{item.sprite2}}"></div>
+            </div>
+            <span class="date">{{item.year}}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,313 @@
+
+- years: 2017
+  company: Elecnor Deimos
+  division: Flight Systems  Business Unit – Embedded Systems
+  category: Project Manager
+  project_name:  S3CDISVV (Sentinel 3-C & Sentinel 3-D Satellites ISVV)
+  project_description: The project to perform the Independent Software Verification and Validation of the Software for the critical element to detect as many and as critical defects in the flight SW as possible given the constraints in terms of schedule and resources.
+  activities: Responsible of reviewing datapacks, providing findings, and managing the relations with customer as well as the coordination of the ISVV team.
+  used:
+    - thing: Jira
+    - thing: Folio
+  sprite: mars
+  url: http://www.elecnor-deimos.com   
+
+- years: 2017
+  company: Elecnor Deimos
+  division: Flight Systems Business Unit – Embedded Systems
+  category: Project Engineer
+  project_name: NEXCODE (Next Generation Uplink Coding Techniques)
+  project_description: The project aims to introduce new coding techniques able to improve performances in terms of supported data rate and maximum distance which are key for both near Earth and deep space missions, allowing maximization of Telecommand (TC) data volume in point to point communication links between Earth stations and spacecraft.
+  activities: Responsible of implements and testing several parts of the system.The telecommands and telemetry tool coded in Java, and the test bench software application running in the ARM processor over the freeRTOS.
+  used: 
+    - thing: C
+    - thing: Java
+    - thing: TCP/IP comms
+    - thing: freeRTOS
+    - thing: ARM
+    - thing: Microblaze 
+    - thing: Zynq-7000 
+    - thing: Xilinx Development Kit
+  sprite: satellite
+  url: http://www.elecnor-deimos.com   
+
+- years: 2016
+  company: Elecnor Deimos
+  division: Flight Systems  Business Unit – Embedded Systems
+  category: Project Engineer
+  project_name:  COREGAL (Combined Positioning-Reflectometry Galileo CodeReceiver for Forest Management)
+  project_description: Project COREGAL, A combined Position+Reflectometry (P+R) Galileo receiver developed as main sensor for platform positioning (cm level) and biomass estimation, the latter using reflected GNSS signals (also called GNSS-R) on tree canopies and ground. COREGAL uses Galileo E5 AltBOC modulation to achieve the requirements imposed (P+R).
+  activities: Responsible of porting the GNSS receiver software solution to a board Mercury ZX1 Zynq-7000, over operating system eCos. Adapt low layers to POSIX API, solve several operating system bugs. Develop TM/TC communication layer with external tools.
+  used: 
+   - thing: C
+   - thing: Java
+   - thing:   TCP/IP comms 
+   - thing: ARM assembler 
+   - thing: eCos
+   - thing: Zynq-7000 
+   - thing: Xilinx Development Kit
+  sprite: rocket-ship
+  url: http://www.elecnor-deimos.com    
+
+- years: 2016
+  company: Elecnor Deimos
+  division: Flight Systems  Business Unit – Embedded Systems
+  category: Project Engineer
+  project_name: DRAMA (Debris Risk Assessment and Mitigation Analysis)
+  project_description: Upgrade of ESA’s Debris Risk Assessment and Mitigation Analysis (DRAMA) Tool Spacecraft Entry Survival Analysis Module
+  activities: Responsible of designing and implementing several modules in the software architecture in C++ as well as preparing the development infrastructure for coding, testing and packing and validation the system in differents platforms.
+  used: 
+   - thing: C++14, 
+   - thing: Googletest
+   - thing: Eclipse
+   - thing: GCC
+   - thing: Clang 
+   - thing: Visual Studio 
+   - thing: Cmake 
+   - thing: netCDF 
+   - thing: Matlab
+   - thing: SVN
+  sprite: satellite2
+  url: http://www.elecnor-deimos.com  
+
+- years: 2015
+  company: Elecnor Deimos
+  division: Flight Systems Business Unit – Embedded Systems
+  category: Project Engineer
+  project_name: MGT SCA ISVV
+  project_description: Project Meteosat Third Generation Scan Assembly (MGT SCA) ISVV. Perform the Independent Software Verification and Validation of the Boot Software for the critical element MTG SCA (DAL-B)
+  activities: Responsible of the review of datapacks (documents and code) and provide findings and recomendations
+  used: 
+   - thing: C
+   - thing: SPARC assembler
+   - thing: UML
+   - thing: MIL-STD-1553
+   - thing: Redmine
+  sprite: startup
+  url: http://www.elecnor-deimos.com        
+
+- years: 2015
+  company: Elecnor Deimos
+  division: Flight Systems  Business Unit – Embedded Systems
+  category: Project Engineer
+  project_name: E-GEM 
+  project_description: Project E-GEM is the design, development, integration, and operation of the 3Cat-2 cubesat satellite. 3Cat-2 launch and operations are supported by the E-GEM European GNSS-R Environmental Monitoring project, a FP7 Project 2014-2016 on the use of GNSS-Reflectometry for environmental monitoring from the 3Cat-2 nanosat
+  activities: Responsible of the advisory and consultancy in the onboard computer software analysis, design and development. The activity includes a tailoring of the ECSS-E-ST-40C, and the evaluation and monitoring of the SW activities.
+  used: 
+   - thing: Standard ECSS-E-ST-40C
+  sprite: satellite
+  url: http://www.elecnor-deimos.com        
+
+- years: 2012, 2014
+  company: Elecnor Deimos
+  division: Aerospace Engineering Business Unit - Embedded Systems
+  category: Project Manager
+  project_name:  G(N)C & HDA Software Prototyping of the Lunar Lander Phase B1
+  project_description: Implementation of the Hazard Detection and Avoidance algorithm in a real time platform composed by a PPC and an FPGA. Performing the functional decomposition in HW/SW, defining the real time system architecture, and validating the system against functional simulators.
+  activities: Responsible of the management activities, relations with subcontractors and customer, performing technical specification, V&V plans and system/software design, preparation of the document releases and involved in the development of some parts of the software system.
+  used: 
+   - thing: UML
+   - thing: Visual Paradigm
+   - thing: FPGA
+   - thing: PPC
+   - thing: VHDL
+   - thing: C 
+   - thing: VxWorks 6.6
+   - thing: SpaceWire
+   - thing: Ethernet
+   - thing: PCI
+   - thing: Simulink
+   - thing: ECSS-E-ST-40C
+  sprite: venus-with-satellite
+  url: http://www.elecnor-deimos.com    
+
+- years: 2012, 2014
+  company: Elecnor Deimos
+  division: Aerospace Engineering Business Unit - Embedded Systems
+  category: Project Manager
+  project_name: EXOMARS EDM Guidance, Navigation and Control SCOE
+  project_description: In this project Deimos is responsible in this project of the Real Time Simulator (RTS), the RTS is in charge of simulating the Environment, Dynamics, and GNC equipment. All the models will be developed in C code and integrated in a DLL library. 
+  activities: In charge of scheduling and managing the activities of the project, the relations with the customer and the coordination of the members projects. Performing technical specification, V&V plans and software design. Preparation of the document release.
+  used: 
+   - thing: C
+   - thing: UML
+   - thing: Simulink
+   - thing: Embedded Coder
+   - thing: Redmine
+   - thing: Visual Paradigm
+  sprite: mars-rover
+  url: http://www.elecnor-deimos.com  
+
+- years: 2011
+  company: Deimos Space
+  division: Aerospace Engineering Business Unit - Embedded Systems
+  category: Project Engineer
+  project_name: AEROFAST (AEROcapture for Future spAce tranSporTation)
+  project_description: The Project  GNC Real Time Test Bench integrates the GNC developed in Simulink environment in a Real Time Bench, using autocoding techniques with The Embedded Coder tool
+  activities: The objective of the project is to run the GNC in a PIL configuration, and validates the GNC design in the Simulink Tool. The Real Time Test Bench is composed by the target processor (LEON3) where the GNC runs and the dSPACE platform where the DKE runs, both nodes interchange data through serial line. The operating System used in the LEON3 is RTEMS.
+  used: 
+   - thing: C
+   - thing: RTEMS 4.6
+   - thing: Embedded Coder
+   - thing: Simulink
+   - thing: dSPACE
+   - thing: LEON3
+   - thing: GRMON
+  sprite: satellite
+  url: http://www.elecnor-deimos.com    
+
+- years: 2011
+  company: Deimos Space
+  division: Aerospace Engineering Business Unit - Embedded Systems
+  category: Project Engineer
+  project_name: IXV Real Time Test Bench
+  project_description: The Project integrates the GNC for the IXV mission developed in Simulink environment in a Real Time Bench, using autocoding with Embedded Coder Tool. The objective of the project is to run the GNC in a PIL configuration, and validates the GNC design in the Simulink Tool. The Real Time Test Bench is composed by the target processor (LEON3) where the GNC runs and the dSPACE platform where the DKE runs, both nodes interchange data through serial line.
+  activities: Responsible of the implementation of the application running in LEON processor, and integration of the GNC algorithms, as well as the validation of the test bench results.
+  used: 
+   - thing: C
+   - thing: RTEMS 4.6
+   - thing: Embedded Coder
+   - thing: Simulink
+   - thing: dSPACE
+   - thing: LEON3
+   - thing: GRMON
+  sprite: rocket-ship
+  url: http://www.elecnor-deimos.com    
+
+- years: 2008, 2009, 2010, 2011
+  company: Deimos Space
+  division: Real Time Systems Division
+  category: Project Engineer
+  project_name: MGF (Message Generation Facility)
+  project_description: 
+  activities: SW Development Manager at MGF project, currently coordinating a team of 7 software engineers in the coding phase, unit testing, pre-integration and integration, planning the work of the development team, solving conflicts between interfaces and participating in the codification of critical parts, resolution of issues involved in configuration management and coordinating the changes control in the SW during the validation and verification phases. All this according to the standards of the ESA and the Galileo project.
+  used: 
+   - thing:  C
+   - thing:  DO-178B
+   - thing:  LinuxWork
+   - thing:  C++Test
+   - thing:  Cantata
+   - thing:  Shell script
+   - thing:  VME
+   - thing:  CVS
+  sprite: satellite2
+  url: http://www.elecnor-deimos.com  
+
+- years: 2007, 2008
+  company: Deimos Space
+  division: Real Time Systems Division
+  category: SW Development Manager
+  project_name: MGF (Message Generation Facility)
+  project_description: MGF is the system in charge of build and distribute the navigation and integrity message for GALILEO satellites, collecting all the information from the other elements of the GMS (Ground Mission Segment).
+  activities: To make detail design of one of the components of the system using the HOOD methodology. Analysis of the functionality of the system and its shedulability. In charge of the coordination of three software engineer
+  used: 
+   - thing:  HRT-HOOD
+   - thing:  Doors
+   - thing:  Galileo Software Standard (GSWS)
+  sprite: satellite2
+  url: http://www.elecnor-deimos.com      
+
+- years: 2006, 2007
+  company: Deimos Space
+  division: Real Time Systems Division
+  category: SW Development Manager
+  project_name: MGF (Message Generation Facility)
+  project_description: MGF is the system in charge of build and distribute the navigation and integrity message for GALILEO satellites, collecting all the information from the other elements of the GMS (Ground Mission Segment).
+  activities: Working in the phase of the design, performing the user requirement analysis to extract element and software requirement, interface definition, high level design using use case, sequence diagram and packet diagrams.
+  used: 
+   - thing:  HRT-HOOD
+   - thing:  Doors
+   - thing:  Galileo Software Standard (GSWS)
+  sprite: mars
+  url: http://www.elecnor-deimos.com   
+
+- years: 2005
+  company: Deimos Space
+  division: Real Time Systems Division
+  category: Project Engineer
+  project_name: RDG (Raw Data Generetor)
+  project_description: Tool in charge of simulate the constellation of GALILEO satellites, this tool is useful to help in the development of the other elements of GMS (Ground Mission Segment) of Galileo.
+  activities: Implementation of the RINEX file parser
+  used: 
+   - thing: C++
+   - thing: Linux
+  sprite: startup
+  url: http://www.elecnor-deimos.com    
+
+- years: 2005
+  company: Deimos Space
+  division: Real Time Systems Division
+  category: Project Engineer
+  project_name: GOCE ISVV
+  project_description: GOCE On Board Software Independent Software Verification and Validation.
+  activities: Responsible for the development of the high-fidelity software simulation of the GOCE Command and Data Management Unit (CDMU), based on TSIM/ERC32.
+  used: 
+   - thing: C
+   - thing: Linux
+   - thing: ERC32 processor
+   - thing: TSIM
+  sprite: satellite2
+  url: http://www.elecnor-deimos.com       
+
+- years: 2004, 2005
+  company: Deimos Space
+  division: Real Time Systems Division
+  category: Project Engineer
+  project_name: Interferometer Constellation Control (ICC2) 
+  project_description: Real time test bench to simulate satellite formation flying, composed by three leon boards, and a environment simulator implemented in Simulink and running in dSPACE.
+  activities: Responsible of desing and develop the real time testbench including the communication layer between different boards (three LEON processor) and software simulation models of the spacecraft, hosted on a Dspace.
+  used: 
+   - thing: C
+   - thing: gcc
+   - thing: RTEMS-4.6
+   - thing: Matlab/Simulink
+   - thing: Real Time Workshop
+   - thing: hardware simulator TSIM-GRMON
+   - thing: board LEON-PCI-XC2V
+   - thing: serial-lines
+   - thing: Ethernet
+  sprite: mars
+  url: http://www.elecnor-deimos.com    
+
+- years: 2003, 2004
+  company: Deimos Space
+  division: Real Time Systems Division
+  category: Project Engineer
+  project_name: Onboard Basic Software for the Precision Agile Control Systems (PACS)
+  project_description: Development of the onboard software for real-time test bench
+  activities: Responsible for the development of the target computer (ERC32-based) HW/SW interface drivers, other tools were developed for this project like cmg simulator and tmtc tool for monitoring the onboard software.
+  used: 
+   - thing: C
+   - thing: Ada95
+   - thing: ObjectAda 
+   - thing: gcc
+   - thing: TSIM
+   - thing: ERC32-SC-VME 
+   - thing: serial-lines 
+   - thing: VME buses
+  sprite: satellite1
+  url: http://www.elecnor-deimos.com    
+
+- years: 2002, 2003
+  company: Deimos Space
+  division: Ground Segment Divison
+  category: Project Engineer
+  project_name: RGT (ROP Generation Tool)
+  project_description: Operational tool developed to support ENVISAT Mission Management in the planning of ENVISAT mission planning
+  activities: Implementation and validation of new improvements to File Transfer Process
+  used: 
+  - thing: C++
+  - thing: Solaris
+  - thing: Ilog views
+  - thing: ORACLE
+  - thing: Perl
+  - thing: Bash Script
+  sprite: venus-with-satellite
+  url: http://www.elecnor-deimos.com
+
+# - position: UI Engineer Co-op
+#   company: Apple
+#   url: http://www.apple.com/
+#   description: Worked on iTunes using Ember.js
+#   sprite: industry
+#   date: July - Dec 2017

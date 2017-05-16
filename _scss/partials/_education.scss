@@ -1,0 +1,106 @@
+#education-section {
+  .section-subheading {
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1em;
+    @include MQ(ML) {
+      width: 100%;
+    }
+  }
+  .education-wrapper {
+    padding-right: 20px;
+    @include MQ(MM) {
+      padding: 0;
+    }
+    .education-text-wrapper {
+      display: inline-block;
+      width: 35%;
+      vertical-align: top;
+      @include MQ(MM) {
+        width: 100%;
+      }
+      .education-text {
+        margin-bottom: 10px;
+        font-size: 1.15em;
+      }
+    }
+    .award-text-wrapper {
+      display: inline-block;
+      width: 80%;
+      vertical-align: top;
+      @include MQ(MM) {
+        width: 100%;
+      }
+      .education-text {
+        margin-bottom: 10px;
+        font-size: 1.15em;
+      }
+    }    
+    .headshot {
+      display: inline-block;
+      width: 35%;
+      height: auto;
+      border-radius: 50%;
+      margin-top: -100px;
+      float: right;
+      max-width: 450px;
+      @include MQ(ML) {
+        margin-top: 0px;
+      }
+      @include MQ(MM) {
+        float: none;
+        margin: 10px 0 40px 0;
+        width: 300px;
+      }
+      @include MQ(S400) {
+        width: 250px;
+      }
+    }
+
+    
+   .shield {
+      display: inline-block;
+      width: 35%;
+      height: auto;
+      border-radius: 1%;
+      margin-top: -4px;
+      margin-right: 4px;
+      float: left;
+      max-width: 125px;
+      @include MQ(ML) {
+        margin-top: 10px;
+      }
+      @include MQ(MM) {
+        float: none;
+        margin: 0 0 0 0;
+        width: 300px;
+      }
+      @include MQ(S400) {
+        width: 250px;
+      }
+    }
+    .shield-fi {
+      display: inline-block;
+      width: 35%;
+      height: auto;
+      border-radius: 1%;
+      margin-top: -14px;
+      margin-right: 200px;
+      float: left;
+      max-width: 100px;
+      @include MQ(ML) {
+        margin-top: 0px;
+      }
+      @include MQ(MM) {
+        float: none;
+        margin: 0 0 0 15px;
+        width: 300px;
+      }
+      @include MQ(S400) {
+        width: 250px;
+      }
+    }    
+  }
+}

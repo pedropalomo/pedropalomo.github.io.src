@@ -1,0 +1,23 @@
+<section id="portfolio-section" class="section">
+  <div class="section-wrapper">
+    <div class="fade-in">
+      <h1 class="section-heading">Publications</h1>
+      <span class="divider"></span>
+      <div class="portfolio-item-wrapper">
+        {% for project in site.data.portfolio %}
+        <div class="portfolio-row">
+          <div class="description-title-container">
+            <p class="description-title"><strong>{{project.title}}</strong></p>
+            <div class="description-buttons">
+              <a href="{{project.file}}" target="_blank">PDF</a>
+            </div>
+          </div>
+          <p class="portfolio-description"><em>{{project.authors}}</em></p>
+          <p class="portfolio-description-congress">{{project.congress}}</p>
+        </div>
+        <span class="divider"></span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

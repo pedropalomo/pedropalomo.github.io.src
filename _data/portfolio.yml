@@ -1,0 +1,57 @@
+
+
+- title: Design of embedded systems with complex task dependencies and shared resource interference
+  authors: Fotios Gioulekas, Peter Poplavko, Rany Kahil, Panagiotis Katsaros, Marius Bozga, Saddek Bensalem and Pedro Palomo
+  congress: SEFM 2017 (15th International Conference on Software Engineering and Formal Methods)
+  file: https://pedropalomo.github.io/papers/multicore_SEFM_2017_paper_108.pdf
+
+- title: Upgrade of ESA’s Debris Risk Assessment and Mitigation Analysis (DRAMA) Tool Spacecraft Entry Survival Analysis Module
+  authors: Irene Pontijas Fuentes, Davide Bonetti, Federico Letterio, Gonzalo Vicario de Miguel, Gonzalo Blanco Arnao, Pedro Palomo Pérez, Cristina Parigini, Stijn Lemmens, Tobias Lips, Ronny Kanzler
+  congress: 7th European Conference for Aeronautics and Space Sciences, 2017
+  file: https://pedropalomo.github.io/papers/drama_IAC-16.pdf
+ 
+- title: 3CAT-2; an Experimental Nano-Satellite for GNSS-R Earth Observation; Mission Concept and Analysis
+  authors: Hugo Carreno-Luengo, Adriano Camps, Pol Via, Juan Francisco Munoz, Alex Cortiella, David Vidal, Jaume Jané, Nuno Catarino, Miguel Hagenfeldt, Pedro Palomo and Stefania Cornara
+  congress: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+  file: https://pedropalomo.github.io/papers/paper_3cat.pdf 
+ 
+- title: A HW-SW Co-Designed System for the Lunar Lander Hazard Detection and Avoidance Breadboarding
+  authors: Pedro Palomo, Antonio Latorre, Carlos Valle, Sergio Gómez de Agüero, Miguel Hagenfeldt, Baltazar Parreira, Almudena Lindoso, Marta Portela, Mario García, Enrique San Millán, Yuri Zharikov, Luis Entrena
+  congress: Data Systems and Aerospace (DASIA) 2014
+  file: https://pedropalomo.github.io/papers/llbb_a13_palo.pdf
+ 
+- title: An Integrated SVF for Real-Time Closed-Loop High-Complexity System Simulations
+  authors: Juan Pérez, José A. Pulido, Pedro Palomo, Antonio Latorre, João S. Silva, Hugo D. Lopes and Alberto García
+  congress: Data Systems and Aerospace (DASIA) 2014
+  file: https://pedropalomo.github.io/papers/gstst_b4_perez.pdf 
+ 
+- title: SCOE for IXV and ExoMars GNC
+  authors: Enrique Rodríguez García, Antonio Ayuso Barea, Ignacio Barrios Tascón , Ignacio de Miguel Matiacci, José María de las Casas Gilarranz, Pablo Giménez González, Vicente Fernández, Pedro Palomo, Rodrigo Haya Ramos, Cristina Parigini
+  congress: Workshop on Simulation for European Space Programmes (SESP) 2012
+  file: https://pedropalomo.github.io/papers/scoerts_s3_1500_rodriguez.pdf
+ 
+- title: An Integrated and Cost-Effective Simulation Tool for GNSS Space Receiver Algorithms Development
+  authors: João S. Silva, Hugo D. Lopes, Tiago R. Peres, José M. Vasconcelos, Maria M. Coimbra, Pedro Freire, Pedro Palomo, Juan Pérez, José A. Pulido
+  congress: ION GNSS 2013
+  file: https://pedropalomo.github.io/papers/gstst_B4-Silva.pdf
+ 
+- title: A Lightweight Communication Protocol for Embedded Systems
+  authors: Antonio Latorre, José A. Pulido, Carlos Valle, Juan Pérez, Sergio Gómez de Agüero, Pedro Palomo.
+  congress: Data Systems and Aerospace (DASIA) 2012
+  file: https://pedropalomo.github.io/papers/dasia12_latorre.pdf
+  
+- title: AEROFAST Functional and Real-Time Simulation for Aerocapture GNC Assessment
+  authors: Miguel Hagenfeldt, Andrea Mafficini, Vicente Fernández, Sergio Gómez, Carlos Valle, Pedro Palomo, Antonio Latorre
+  congress: Simulation & EGSE Facilities for Space Programmes, SESP 2012
+  file: https://pedropalomo.github.io/papers/aerofast_s9_0900_hagenfeldt.pdf
+
+- title: Mars Pre-aerocapture GNC Functional and Real Time Performance
+  authors: Andrea Mafficini, Miguel Hagenfeldt, Carlos Valle, Pedro Palomo, Sergio Gómez, Luis Penin, José Manuel Rebordão, João Dinis
+  congress: AIAA Guidance, Navigation, and Control Conference , August 15, 2012
+  file: https://arc.aiaa.org/doi/abs/10.2514/6.2012-4922
+ 
+- title: Galileo “Message Generation Facility” – Safety-critical and Real-time
+  authors: Antonio Latorre, Adrián Mora, Pedro Palomo, Tomás Suarez, Mike Rennie
+  congress: Data Systems and Aerospace (DASIA) 2008
+  file: https://pedropalomo.github.io/papers/MGF_DASIA_08.pdf
+

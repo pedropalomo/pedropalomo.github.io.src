@@ -1,0 +1,49 @@
+# Site settings
+name: Pedro Palomo Pérez
+title: Pedro Palomo Pérez | Software Engineer
+description: Software Engineer.
+url: https://pedropalomo.github.io/
+baseurl: ""
+email: pedro.palomoperez@gmail.com
+cover: https://pedropalomo.github.io/img/og.jpg
+logo: https://pedropalomo.github.io/img/logo-black.png
+resume: https://pedropalomo.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:pedro.palomoperez@gmail.com
+  - title: twitter
+    url: https://twitter.com/
+  - title: instagram
+    url: https://instagram.com/
+  - title: codepen
+    url: http://codepen.io/
+  - title: github
+    url: https://github.com/pedropalomo
+  - title: linkedin
+    url: https://www.linkedin.com/in/pedropalomo
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+gems:
+  - jekyll-minifier
+  - jekyll-sitemap
+  
+# deployment
+host: 0.0.0.0
+port: 8080

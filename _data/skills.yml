@@ -1,0 +1,87 @@
+
+programming_language:
+  - item: C 
+  - item: C++11/14 
+  - item: Assembly 
+  - item: Matlab 
+  - item: Java 
+  - item: Ada95 
+  - item: Perl 
+  - item: Shell Script 
+  - item: Ruby 
+  - item: Javascript 
+  - item: HTML/CCS 
+  - item: Python
+
+management_tools:
+  - item: jira_logo
+  - item: pmi_logo
+  - item: project_logo
+  - item: redmine_logo
+
+operating_systems:
+  - item: Windows 
+  - item: Linux 
+  - item: LyxOS-178 
+  - item: ORK 
+  - item: RTEMS 
+  - item: Object Ada 
+  - item: XGC 
+  - item: VxWorks 
+  - item: FreeRTOS
+
+simulation_and_autocoding:
+  - item: Simulink 
+  - item: Embedded Coder 
+  - item: dSPACE 
+  - item: SCADE Suite
+  - item: SCADE Lifecycle
+  - item: TSIM 
+  - item: GRMON
+
+configuration_management:
+  - item: CVS 
+  - item: SVN 
+  - item: GIT + GITHUB
+
+design_methodologies:
+  - item: UML 
+  - item: HRT-HOOD
+
+software_standards:
+  - item: ESA PSS-05 
+  - item: GSWS 
+  - item: ARINC-653 
+  - item: ECSS-E-ST-40C
+    
+development_environments:
+  - item: Eclipse 
+  - item: Visual Studio 
+  - item: Visual Studio Code 
+  - item: Emacs        
+    
+hardware_platforms:
+  - item: ERC32 
+  - item: LEON3 
+  - item: LEON4 
+  - item: Microblaze 
+  - item: ARM X86
+  - item: CPCI-CPU/750
+  - item: MIL-STD-1553B
+  - item: SpaceWire
+
+web_development_tools:
+  - item: Nodejs 
+  - item: Express 
+  - item: React 
+  - item: React native 
+  - item: MongoDB 
+  - item: HTML5
+  - item: CSS3 
+  - item: Bootstrap 
+  - item: Webpack 
+  - item: Firebase 
+  - item: Heroku
+    
+
+

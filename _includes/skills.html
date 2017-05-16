@@ -1,0 +1,128 @@
+<section id="skills-section" class="section">
+  <div class="section-wrapper">
+    <div class="fade-in">
+      <h1 class="section-heading">Skills</h1>
+      <span class="divider"></span>
+      <div class="skills-flex-wrapper">
+        <div class="flex-item dev-wrapper">
+          <h2 class="skills-heading">
+            <span class="sprite programmer"></span>
+            <span>Programming Lenguages</span>
+          </h2>
+          <ul>
+            {% for dev in site.data.skills.programming_language %}
+            <li class="dev-item">{{dev.item}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="flex-item design-wrapper">
+          <h2 class="skills-heading">
+            <span class="sprite management"></span>
+            <span>Management Tools</span>
+          </h2>
+          <ul>
+            {% for design in site.data.skills.management_tools %}
+            <li class="design-item"><img class="item-img" src="img/icons/{{design.item}}.png" alt="{{design.item}}"></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="flex-item check-wrapper">
+          <div class="knowledge-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite folder"></span>
+              <span>Configuration</span>
+            </h2>
+            <ul class="list">
+              {% for thing in site.data.skills.configuration_management %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{thing.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="knowledge-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite books"></span>
+              <span>SW Standards</span>
+            </h2>
+            <ul class="list">
+              {% for thing in site.data.skills.software_standards %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{thing.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="flex-item check-wrapper">
+          <div class="tools-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite code"></span>
+              <span>IDE</span>
+            </h2>
+            <ul class="list">
+              {% for tool in site.data.skills.development_environments %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>          
+          <div class="knowledge-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite design"></span>
+              <span>SW Design</span>
+            </h2>
+            <ul class="list">
+              {% for thing in site.data.skills.design_methodologies %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{thing.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>    
+        </div>
+        <div class="flex-item check-wrapper">
+          <div class="tools-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite board"></span>
+              <span>Hardware</span>
+            </h2>
+            <ul class="list">
+              {% for tool in site.data.skills.hardware_platforms %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>          
+          <div class="tools-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite internet"></span>
+              <span>Web/Mobile</span>
+            </h2>
+            <ul class="list">
+              {% for tool in site.data.skills.web_development_tools %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>    
+        <div class="flex-item check-wrapper">
+          <div class="tools-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite puzzle"></span>
+              <span>OOSS</span>
+            </h2>
+            <ul class="list">
+              {% for tool in site.data.skills.operating_systems %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="tools-wrapper">
+            <h2 class="skills-heading">
+              <span class="sprite model"></span>
+              <span>Simulators</span>
+            </h2>
+            <ul class="list">
+              {% for tool in site.data.skills.simulation_and_autocoding %}
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+</section>

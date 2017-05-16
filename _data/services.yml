@@ -1,0 +1,21 @@
+- row: row1
+  services:
+    - heading: Software Engineering
+      sprite: ui
+      text: Cover all the software engineering phases in the lifecycle compliant with ECSS and other Space standards. Specially <u>ECSS-E-ST-40C</u>. Preparation of the associated project documentation. Sofware configuration management. Strong experience in formal verification and validation;  unit, integration and system test and Independent Sofware Verification and Validation (ISVV).
+
+    - heading: Project Management
+      sprite: xd
+      text: I work as Project Manager following the processes for <u>Planning, Executing, Monitoring and Controlling</u> all the activities defined the scope of the project with the aim of delivering the product in time, with the cost defined in the budget, and coordinating the activities with the customer. I follow the (PMBOK® Guide) to cover all the PM activities as well as the company Quality System.
+
+
+- row: row2
+  services:
+    - heading: Embedded Software 
+      sprite: chip
+      text: Wide experience in programming in C, C++ and scripting languages. Strong knowledge in <u>embedded real time software programming</u>, multithread and concurrent applications. Knowledge in Real Time Operating Systems, development of low level drivers and BSPs.  Accustomed to work and develop hardware dependent software, communication drivers and communication protocols.
+
+
+    - heading: Systems Development
+      sprite: syst
+      text: Strong knowledge in microprocessors/microcontroller architectures (SPARC, ARM) and buses (AMBA, APB, AHB), Knowledge of Model driven engineering and SW modelling tools, Knowledge of Communication Protocols and  low level SW integration within microprocessors / FPGA solutions. Knowledge of RCP (Rapid Control Prototyping), SIL (Software-In-Loop Simulation), PIL (Processor-In-Loop Simulation), HIL (Hardware-In-Loop Simulation.

@@ -1,0 +1,101 @@
+
+- year: 2017
+  course: The Complete React Native and Redux Course
+  description: iOS and Android App Development from scratch - build fully native mobile apps.
+  institution: Udemy
+  link: https://www.udemy.com 
+  sprite: udemy
+  sprite2: academic
+  duration: 17h
+  
+- year: 2017
+  course: Webpack 2 The Complete Developer's Guide
+  description: Webpack is the premier build tool for React and Angular 2 applications.
+  institution: Udemy
+  link: https://www.udemy.com 
+  sprite: udemy
+  sprite2: university
+  duration: 6h
+  
+- year: 2017
+  course: The Complete Developers Guide to MongoDB
+  description: Master MongoDB and Mongoose design with a test-driven approach
+  institution: Udemy
+  link: https://www.udemy.com
+  sprite: udemy
+  sprite2: academic
+  duration: 14h
+  
+- year: 2016
+  course: MongoDB for Node.js Developers
+  description: Learn basic installation of MongoDB, JSON, schema design, querying, insertion of data, indexing and working with language drivers. The course project involves building an e-commerce platform with MongoDB. Code examples will be in Node.js.
+  institution: MongoDB University
+  link: https://university.mongodb.com/
+  sprite: mongo
+  sprite2: university
+  duration: 40h  
+
+- year: 2016
+  course: Full Stack Web Development
+  description: Learn HTML3, CSS, responsibe design with Bootstrap, jQuery, AJAX, Javascript, JSON, API Rest, GIT, NodeJS
+  institution: FreeCodeCamp
+  link: https://www.freecodecamp.com 
+  sprite: fcc
+  sprite2: university
+  duration: 
+  
+- year: 2016
+  course: Modern React with Redux
+  description: Master the fundamentals of React and Redux with this tutorial as you develop apps supported by NPM, Webpack, and ES6
+  institution: Udemy
+  link:  https://www.udemy.com/react-redux/learn/v4/overview
+  sprite: udemy
+  sprite2: academic
+  duration: 27h
+
+- year: 2016
+  course: Advanced React and Redux
+  description: Detailed walkthroughs on advanced React and Redux concepts - Authentication, Testing, Middlewares, HOC's, and Deployment
+  institution: Udemy
+  link: https://www.udemy.com/react-redux-tutorial/learn/v4/overview
+  sprite: udemy
+  sprite2: university
+  duration: 12h
+
+- year: 2015
+  course: SCADE Suite, SCADE Simulink Gateway and SCADE Lifecycle.
+  description: Evaluation of tools SCADE Suite (SCADE Suite editor, SCADE Simulink Gateway, MTC, Model Test Coverage, KCG, Qualified Code generation) and SCADE Lifecycle (RapidPrototyper,RM gateway, Requirements Management, QTE, Qualified Test Environment).
+  institution: ANSYS consultor
+  link: http://www.ansys.com/
+  sprite: ansys
+  sprite2: academic
+  duration: 36h
+
+
+- year: 2012
+  course: Negotiation Skills
+  description:  Focus in gain insight into the habits of dealmakers as you build your own skills. 
+  institution: Elecnor Deimos
+  link: http://www.elecnor-deimos.com 
+  sprite: elecnor
+  sprite2: university
+  duration: 14h 
+
+- year: 2008
+  course: Project Management Professional PMI
+  description: Course to obtain the PMP certification, following the PMBOK Guide.
+  institution: International Institute for Learning (IIL)
+  link: http://www.iil.com/
+  sprite: ill 
+  sprite2: academic
+  duration: 40h
+
+- year: 2004
+  course: Introduction to Software Safety and Dependability Engineering
+  description: Present the state of the art of the implementation, verification and validation of dependability and safety in critical software systems.
+  institution: SoftWcare
+  link: http://www.softwcare.com/  
+  sprite: softwcare
+  sprite2: university
+  duration: 8h
+  

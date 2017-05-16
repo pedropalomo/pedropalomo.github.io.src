@@ -1,0 +1,43 @@
+<section id="experience-section" class="section gap">
+  <div class="bg" data-anchor-target="#experience-section"
+  data-bottom-top="transform: translate3d(0px, -150px, 0px);"
+  data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+  ></div>
+  <div class="overlay-wrapper">
+    <div class="fade-in">
+      <div class="center">
+        <h1 class="section-heading">Experience</h1>
+        <span class="divider center"></span>
+        <p class="experience-description">I have developed all my career in <a href="http://elecnor-deimos.com/" target="_blank">Elecnor Deimos</a>, first as Software Engineer and currently as Project Manager, in any case I have never deviated from my main vocation: the Software Engineering. </p>
+      </div>
+      <div class="experience-wrapper">
+        <i class="up-arrow"></i>
+        <div id="timeline">
+          {% for item in site.data.timeline %}
+          <div class="timeline-block">
+            <div class="timeline-content">
+              <h2 class="position">{{item.category}}</h2>
+              <h3 class="company"><a href="{{item.url}}" target="_blank">{{item.company}}</a></h3>
+              <h3 class="company"><a href="{{item.url}}" target="_blank">{{item.division}}</a></h3>
+              <p class="project-name">{{item.project_name}}</p>
+              <p class="job-desc">{{item.project_description}}</p>
+              <p class="job-desc">{{item.activities}}</p>
+              <div class="used">
+                <ul class="used-items">
+                  {% for element in item.used %}
+                  <li class="used-item">{{element.thing}}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-img">
+              <div class="sprite {{item.sprite}}"></div>
+            </div>
+            <span class="date">{{item.years}}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

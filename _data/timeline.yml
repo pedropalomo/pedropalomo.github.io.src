@@ -199,7 +199,7 @@
   category: SW Development Manager
   project_name: MGF (Message Generation Facility)
   project_description: MGF is the system in charge of build and distribute the navigation and integrity message for GALILEO satellites, collecting all the information from the other elements of the GMS (Ground Mission Segment).
-  activities: To make detail design of one of the components of the system using the HOOD methodology. Analysis of the functionality of the system and its shedulability. In charge of the coordination of three software engineer
+  activities: To make detail design of one of the components of the system using the HOOD methodology. Analysis of the functionality of the system and its shedulability. In charge of the coordination of three software engineer.
   used: 
    - thing:  HRT-HOOD
    - thing:  Doors
@@ -227,7 +227,7 @@
   category: Project Engineer
   project_name: RDG (Raw Data Generetor)
   project_description: Tool in charge of simulate the constellation of GALILEO satellites, this tool is useful to help in the development of the other elements of GMS (Ground Mission Segment) of Galileo.
-  activities: Implementation of the RINEX file parser
+  activities: Implementation of the RINEX file parser.
   used: 
    - thing: C++
    - thing: Linux
@@ -255,7 +255,7 @@
   category: Project Engineer
   project_name: Interferometer Constellation Control (ICC2) 
   project_description: Real time test bench to simulate satellite formation flying, composed by three leon boards, and a environment simulator implemented in Simulink and running in dSPACE.
-  activities: Responsible of desing and develop the real time testbench including the communication layer between different boards (three LEON processor) and software simulation models of the spacecraft, hosted on a Dspace.
+  activities: Responsible of designing and developing the real time testbench including the communication layer between different boards (three LEON processor) and software simulation models of the spacecraft, hosted on a Dspace.
   used: 
    - thing: C
    - thing: gcc
@@ -274,7 +274,7 @@
   division: Real Time Systems Division
   category: Project Engineer
   project_name: Onboard Basic Software for the Precision Agile Control Systems (PACS)
-  project_description: Development of the onboard software for real-time test bench
+  project_description: Development of the onboard software for real-time test bench.
   activities: Responsible for the development of the target computer (ERC32-based) HW/SW interface drivers, other tools were developed for this project like cmg simulator and tmtc tool for monitoring the onboard software.
   used: 
    - thing: C
@@ -293,8 +293,8 @@
   division: Ground Segment Divison
   category: Project Engineer
   project_name: RGT (ROP Generation Tool)
-  project_description: Operational tool developed to support ENVISAT Mission Management in the planning of ENVISAT mission planning
-  activities: Implementation and validation of new improvements to File Transfer Process
+  project_description: Operational tool developed to support ENVISAT Mission Management in the planning of ENVISAT mission planning.
+  activities: Implementation and validation of new improvements to File Transfer Process.
   used: 
   - thing: C++
   - thing: Solaris

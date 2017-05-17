@@ -1,7 +1,10 @@
 #!/bin/bash 
  
+if test "$1" = "-b"
+then
 # build 
 gulp build
+fi
 
 
 # Update pedropalomo.github.io.src

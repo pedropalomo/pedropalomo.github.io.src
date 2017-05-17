@@ -1,4 +1,4 @@
-# Personal Website V2 🚀🔥
+# Personal Website V1 🚀🔥
 
 Hello! Thanks for checking out the repo for my website. .
 
@@ -19,4 +19,4 @@ Hello! Thanks for checking out the repo for my website. .
 - [Skrollr.js](https://github.com/Prinzhorn/skrollr) for parallax effects
 - [Formspree](https://formspree.io/) for a simple, sans-PHP contact form
 
-Let me know what you think!
+

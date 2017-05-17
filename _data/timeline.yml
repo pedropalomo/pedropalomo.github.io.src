@@ -4,7 +4,7 @@
   division: Flight Systems  Business Unit – Embedded Systems
   category: Project Manager
   project_name:  S3CDISVV (Sentinel 3-C & Sentinel 3-D Satellites ISVV)
-  project_description: The project to perform the Independent Software Verification and Validation of the Software for the critical element to detect as many and as critical defects in the flight SW as possible given the constraints in terms of schedule and resources.
+  project_description: Perform the Independent Software Verification and Validation of the Software for the critical element to detect as many and as critical defects in the flight SW as possible given the constraints in terms of schedule and resources.
   activities: Responsible of reviewing datapacks, providing findings, and managing the relations with customer as well as the coordination of the ISVV team.
   used:
     - thing: Jira
@@ -18,7 +18,7 @@
   category: Project Engineer
   project_name: NEXCODE (Next Generation Uplink Coding Techniques)
   project_description: The project aims to introduce new coding techniques able to improve performances in terms of supported data rate and maximum distance which are key for both near Earth and deep space missions, allowing maximization of Telecommand (TC) data volume in point to point communication links between Earth stations and spacecraft.
-  activities: Responsible of implements and testing several parts of the system.The telecommands and telemetry tool coded in Java, and the test bench software application running in the ARM processor over the freeRTOS.
+  activities: Responsible of implementing and testing several parts of the system; the telecommands and telemetry tool coded in Java and the test bench software application running in the ARM processor over the freeRTOS.
   used: 
     - thing: C
     - thing: Java
@@ -36,7 +36,7 @@
   division: Flight Systems  Business Unit – Embedded Systems
   category: Project Engineer
   project_name:  COREGAL (Combined Positioning-Reflectometry Galileo CodeReceiver for Forest Management)
-  project_description: Project COREGAL, A combined Position+Reflectometry (P+R) Galileo receiver developed as main sensor for platform positioning (cm level) and biomass estimation, the latter using reflected GNSS signals (also called GNSS-R) on tree canopies and ground. COREGAL uses Galileo E5 AltBOC modulation to achieve the requirements imposed (P+R).
+  project_description: Project COREGAL, a combined Position+Reflectometry (P+R) Galileo receiver developed as main sensor for platform positioning (cm level) and biomass estimation, the latter using reflected GNSS signals (also called GNSS-R) on tree canopies and ground. COREGAL uses Galileo E5 AltBOC modulation to achieve the requirements imposed (P+R).
   activities: Responsible of porting the GNSS receiver software solution to a board Mercury ZX1 Zynq-7000, over operating system eCos. Adapt low layers to POSIX API, solve several operating system bugs. Develop TM/TC communication layer with external tools.
   used: 
    - thing: C
@@ -55,7 +55,7 @@
   category: Project Engineer
   project_name: DRAMA (Debris Risk Assessment and Mitigation Analysis)
   project_description: Upgrade of ESA’s Debris Risk Assessment and Mitigation Analysis (DRAMA) Tool Spacecraft Entry Survival Analysis Module
-  activities: Responsible of designing and implementing several modules in the software architecture in C++ as well as preparing the development infrastructure for coding, testing and packing and validation the system in differents platforms.
+  activities: Responsible of designing and implementing several modules in the software architecture in C++ as well as preparing the development infrastructure for coding, testing, packing and validating the system in differents platforms.
   used: 
    - thing: C++14, 
    - thing: Googletest

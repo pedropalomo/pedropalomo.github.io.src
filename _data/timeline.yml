@@ -57,7 +57,7 @@
   project_description: Upgrade of ESA’s Debris Risk Assessment and Mitigation Analysis (DRAMA) Tool Spacecraft Entry Survival Analysis Module
   activities: Responsible of designing and implementing several modules in the software architecture in C++ as well as preparing the development infrastructure for coding, testing, packing and validating the system in differents platforms.
   used: 
-   - thing: C++14, 
+   - thing: C++14 
    - thing: Googletest
    - thing: Eclipse
    - thing: GCC

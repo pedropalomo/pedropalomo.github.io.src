@@ -1,5 +1,15 @@
 
 - year: 2017
+  course: GraphQL with React; The Complete Developers Guide
+  description: Learn how to use GraphQL's schema to define relations between your data objects, Learn the process of combining a backend server with a front end React, Master the process of thinking about your applications data in terms of a graph structure, Grasp the difference between GraphQL, Apollo, and Relay, and when to use each, Develop apps that are unique, fun, and responsive. Build servers that can be used with both React and React Native applications, Master handling authentication with GraphQL, Learn the core principles of navigation with React Router and GraphQL.
+  institution: Udemy
+  link: https://www.udemy.com/graphql-with-react-course/learn/v4/overview 
+  sprite: udemy
+  sprite2: academic
+  duration: 13h
+  certification: https://www.udemy.com/certificate/UC-R27HG8SQ/
+
+- year: 2017
   course: The Complete React Native and Redux Course
   description: iOS and Android App Development from scratch - build fully native mobile apps.
   institution: Udemy

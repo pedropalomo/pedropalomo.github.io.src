@@ -22,8 +22,12 @@
               <span class="sprite_course {{item.sprite}}"></span>
               <span class="company"><a href="{{item.link}}" target="_blank">{{item.institution}}</a></span>
               </h3>
-              
               <p class="job-desc">{{item.description}}</p>
+              
+              {% if item.certification %}
+              <a href="{{item.certification}}" target="_blank">Certification</a>
+              {% endif %}
+              
               <div class="used">
                 <ul class="used-items">
                   {% for element in item.used %}
@@ -31,6 +35,8 @@
                   {% endfor %}
                 </ul>
               </div>
+              
+              
             </div>
             <div class="timeline-img">
               <div class="sprite {{item.sprite2}}"></div>

@@ -25,18 +25,10 @@
               <p class="job-desc">{{item.description}}</p>
               
               {% if item.certification %}
-              <a href="{{item.certification}}" target="_blank">Certification</a>
+              <a href="{{item.certification}}" target="_blank"><ins><b>Certification</b></ins></a>
               {% endif %}
               
-              <div class="used">
-                <ul class="used-items">
-                  {% for element in item.used %}
-                  <li class="used-item">{{element.thing}}</li>
-                  {% endfor %}
-                </ul>
-              </div>
-              
-              
+
             </div>
             <div class="timeline-img">
               <div class="sprite {{item.sprite2}}"></div>

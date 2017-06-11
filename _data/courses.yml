@@ -17,6 +17,7 @@
   sprite: udemy
   sprite2: academic
   duration: 17h
+  certification: https://www.udemy.com/certificate/UC-AWMQB6E0/
   
 - year: 2017
   course: Webpack 2 The Complete Developer's Guide
@@ -26,6 +27,7 @@
   sprite: udemy
   sprite2: university
   duration: 6h
+  certification: https://www.udemy.com/certificate/UC-OBJSEJOT/
   
 - year: 2017
   course: The Complete Developers Guide to MongoDB
@@ -35,6 +37,7 @@
   sprite: udemy
   sprite2: academic
   duration: 14h
+  certification: https://www.udemy.com/certificate/UC-NHDWPWLT/
   
 - year: 2016
   course: MongoDB for Node.js Developers
@@ -44,6 +47,7 @@
   sprite: mongo
   sprite2: university
   duration: 40h  
+  certification: https://university.mongodb.com/course_completion/d0a5b64fb9ae49618e8d42d56f8c284f
 
 - year: 2016
   course: Full Stack Web Development
@@ -62,6 +66,7 @@
   sprite: udemy
   sprite2: academic
   duration: 27h
+  certification: https://www.udemy.com/certificate/UC-4W59QBDE/
 
 - year: 2016
   course: Advanced React and Redux
@@ -71,6 +76,7 @@
   sprite: udemy
   sprite2: university
   duration: 12h
+  certification: https://www.udemy.com/certificate/UC-UMRMQFLN/
 
 - year: 2015
   course: SCADE Suite, SCADE Simulink Gateway and SCADE Lifecycle.

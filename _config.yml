@@ -1,3 +1,8 @@
+
+# deployment
+host: 0.0.0.0
+port: 8080
+
 # Site settings
 name: Pedro Palomo Pérez
 title: Pedro Palomo Pérez | Software Engineer
@@ -25,9 +30,6 @@ social:
 # Build settings
 markdown: kramdown
 
-# deployment
-host: 0.0.0.0
-port: 8080
 
 exclude:
   - "Gemfile"

@@ -3,9 +3,10 @@
 Hello! Thanks for checking out the repo for my website. .
 
 ## Getting started
-- `npm install`
-- `gulp serve` to start a dev server
-- `gulp build` for prod
+- `npm install` for installing the development environment
+- `gulp build` for generating and build the static website
+- `jekyll serve` to start a dev server (Modify _config.yml to setup the network address and port)
+
 
 ## What I used
 
